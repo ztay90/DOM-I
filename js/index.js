@@ -45,27 +45,40 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 let services = document.querySelectorAll('a')[0];
 services.textContent = siteContent['nav']['nav-item-1'];
 services.style.color = 'green';
+services.style.fontSize = '1.2rem';
+services.style.fontWeight = '700';
+
 
 let product = document.querySelectorAll('a')[1];
 product.textContent = siteContent['nav']['nav-item-2'];
 product.style.color = 'green';
+product.style.fontSize = '1.2rem';
+product.style.fontWeight = '700';
 
 
 let vision = document.querySelectorAll('a')[2];
 vision.textContent = siteContent['nav']['nav-item-3'];
 vision.style.color = 'green';
+vision.style.fontSize = '1.2rem';
+vision.style.fontWeight = '700';
 
 let features = document.querySelectorAll('a')[3];
 features.textContent = siteContent['nav']['nav-item-4'];
 features.style.color = 'green';
+features.style.fontSize = '1.2rem';
+features.style.fontWeight = '700';
 
 let about = document.querySelectorAll('a')[4];
 about.textContent = siteContent['nav']['nav-item-5'];
 about.style.color = 'green';
+about.style.fontSize = '1.2rem';
+about.style.fontWeight = '700';
 
 let contact = document.querySelectorAll('a')[5];
 contact.textContent = siteContent['nav']['nav-item-6'];
 contact.style.color = 'green';
+contact.style.fontSize = '1.2rem';
+contact.style.fontWeight = '700';
 
 // CTA
 let headerImg = document.querySelector('#cta-img');
@@ -81,12 +94,14 @@ button.textContent = siteContent['cta']['button'];
 
 let featuresH4 = document.querySelectorAll('h4')[0];
 featuresH4.textContent = siteContent['main-content']['features-h4'];
+featuresH4.style.fontSize = "1.4rem";
 
 let featuresContent = document.querySelectorAll('p')[0];
 featuresContent.textContent = siteContent['main-content']['features-content'];
 
 let aboutH4 = document.querySelectorAll('h4')[1];
 aboutH4.textContent = siteContent['main-content']['about-h4'];
+aboutH4.style.fontSize = "1.4rem";
 
 let aboutContent = document.querySelectorAll('p')[1];
 aboutContent.textContent = siteContent['main-content']['about-content'];
@@ -96,18 +111,21 @@ middleImage.setAttribute('src', 'img/mid-page-accent.jpg');
 
 let servicesH4 = document.querySelectorAll('h4')[2];
 servicesH4.textContent = siteContent['main-content']['services-h4'];
+servicesH4.style.fontSize = "1.4rem";
 
 let servicesContent = document.querySelectorAll('p')[2];
 servicesContent.textContent = siteContent['main-content']['services-content'];
 
 let productH4 = document.querySelectorAll('h4')[3];
 productH4.textContent = siteContent['main-content']['product-h4'];
+productH4.style.fontSize = "1.4rem";
 
 let productContent = document.querySelectorAll('p')[3];
 productContent.textContent = siteContent['main-content']['product-content'];
 
 let visionH4 = document.querySelectorAll('h4')[4];
 visionH4.textContent = siteContent['main-content']['vision-h4'];
+visionH4.style.fontSize = "1.4rem";
 
 let visionContent = document.querySelectorAll('p')[4];
 visionContent.textContent = siteContent['main-content']['vision-content'];
@@ -115,6 +133,7 @@ visionContent.textContent = siteContent['main-content']['vision-content'];
 // CONTACT
 let contactH4 = document.querySelectorAll('h4')[5];
 contactH4.textContent = siteContent['contact']['contact-h4'];
+contactH4.style.fontSize = "1.4rem";
 
 let address = document.querySelectorAll('p')[5];
 address.textContent = siteContent['contact']['address'];
@@ -134,6 +153,8 @@ let blog = document.createElement('a');
 blog.textContent = 'Blog';
 blog.setAttribute('href', "#");
 blog.style.color = 'green';
+blog.style.fontSize = '1.2rem';
+blog.style.fontWeight = '700';
 
 let nav = document.querySelector('nav');
 nav.appendChild(blog);
@@ -142,6 +163,8 @@ let home = document.createElement('a');
 home.textContent = 'Home';
 home.setAttribute('href', "#");
 home.style.color = 'green';
+home.style.fontSize = '1.2rem';
+home.style.fontWeight = '700';
 
 let nav1 = document.querySelector('nav');
 nav1.prepend(home);
